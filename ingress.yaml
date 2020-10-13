@@ -4,10 +4,9 @@ metadata:
   name: reverse-words
   annotations:
     kubernetes.io/ingress.class: nginx
-    argocd.argoproj.io/compare-options: IgnoreExtraneous
 spec:
   rules:
-  - host: reversewords-dev.apps.demo.5a39.sandbox1183.opentlc.com
+  - host: reversewords-stage.acmdemo.sandbox1482.opentlc.com
     http:
       paths:
       - backend:
